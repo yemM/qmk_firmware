@@ -1,6 +1,7 @@
 {
   "version": 1,
-  "documentation": "This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\n",
+  "notes": "",
+  "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "splitkb/kyria/rev2",
   "keymap": "colemak",
   "layout": "LAYOUT",
@@ -51,9 +52,9 @@
       "LCTL_T(KC_LGUI)",
       "MO(3)",
       "MO(4)",
-      "KC_BSPC",
-      "KC_SPC",
-      "KC_SPC",
+      "KC_ENT",
+      "LT(3,KC_SPC)",
+      "LT(4,KC_SPC)",
       "MO(5)",
       "MO(6)"
     ],
@@ -295,27 +296,27 @@
       "DF(0)",
       "DF(1)",
       "DF(2)",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
       "RGB_M_P",
       "RGB_RMOD",
       "RGB_VAD",
       "RGB_HUD",
       "RGB_SAD",
       "RGB_SPD",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
       "KC_TRNS",
-      "KC_NO"
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS"
     ],
     [
       "KC_F11",
@@ -370,6 +371,5 @@
       "KC_NO"
     ]
   ],
-  "author": "YemM",
-  "notes": ""
+  "author": ""
 }
