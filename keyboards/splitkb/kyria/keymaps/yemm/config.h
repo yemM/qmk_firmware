@@ -27,9 +27,9 @@
 
 #ifdef RGBLIGHT_ENABLE
     #define RGBLIGHT_SPLIT
-    #define RGBLIGHT_HUE_STEP  8
-    #define RGBLIGHT_SAT_STEP  8
-    #define RGBLIGHT_VAL_STEP  8
+    #define RGBLIGHT_HUE_STEP  5
+    #define RGBLIGHT_SAT_STEP  5
+    #define RGBLIGHT_VAL_STEP  5
     #define RGBLIGHT_LIMIT_VAL 255
 //    #undef RGBLED_NUM
 //    #define RGBLIGHT_ANIMATIONS
